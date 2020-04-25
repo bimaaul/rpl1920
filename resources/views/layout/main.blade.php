@@ -12,17 +12,17 @@
 <body>
   <header>
     <nav>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="{{ url('/') }}">
         <img src="\img\nav-logo.png">
         <span>ezlaundry</span>
       </a>
 
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Service</a></li>
-        <li><a href="#">Reward</a></li>  
-        <li><a href="#">Sign In</a></li>
-      </ul>
+        <li><a href="{{ url('/') }}">Home</a></li>
+        <li><a href="{{ url('/service') }}">Service</a></li>
+        <li><a href="{{ url('/reward') }}">Reward</a></li> 
+        <li><a class="btn  btn-outline-light btn-sm" href="{{ url('/signin') }}" role="button">Login/Register</a></li>
+        </ul>
 
       <div class="menu-toggle">
          <input type="checkbox" name="" id="">

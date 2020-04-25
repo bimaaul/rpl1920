@@ -30,7 +30,7 @@ nav a span {
 }
 
 nav ul {
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
     list-style: none;
     width: 30%;
@@ -43,9 +43,18 @@ nav ul li a{
     font-size: 1em;
 }
 
+nav ul li .btn {
+    margin-top: -3px;
+    border-radius: 50px;
+}
+
 nav ul li a:hover {
     color: white;
     text-decoration: none;
+}
+
+nav ul li .btn:hover {
+    color: #00a2c6;
 }
 
 nav a {
@@ -111,14 +120,14 @@ nav a:hover {
 /* Responsive Breakpoint */
 
 /* Tablet View */
-@media screen and (max-width: 883px) {
+@media screen and (max-width: 768px) {
     nav ul {
         width: 50%;
     }
 }
 
 /* Mobile View */
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 576px) {
     .menu-toggle {
         display: flex;
     }
