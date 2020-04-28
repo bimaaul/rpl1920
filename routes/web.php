@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PagesController@home');
 Route::get('/signin', 'PagesController@masuk');
+Route::get('/reward', 'PagesController@reward');

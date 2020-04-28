@@ -13,4 +13,8 @@ class PagesController extends Controller
     public function masuk() {
         return view('signin');
     }
+
+    public function reward() {
+        return view('reward');
+    }
 }
