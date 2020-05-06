@@ -22,7 +22,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap :7rem;
+    grid-gap: 7rem;
     padding: 0 2rem;
 }
 
@@ -112,7 +112,7 @@ body{
     border-bottom: 2px solid #d9d9d9;
 }
 
-.login-content .content .input-div.one{
+.login-content .content .input-div .one{
 	margin-top: 0;
 }
 

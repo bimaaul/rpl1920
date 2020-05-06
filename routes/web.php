@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PagesController@home');
 Route::get('/signin', 'PagesController@masuk');
 Route::get('/reward', 'PagesController@reward');
+Route::get('/user/profile', 'UserController@profile');
+Route::get('/user/reward', 'UserController@reward');
+Route::get('/user/order', 'UserController@order');
+Route::get('/user/history', 'UserController@history');

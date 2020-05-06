@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Web Icon -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" sizes="32x32" href="\icon\favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="\icon\favicon-16x16.png">
+		<link rel="manifest" href="\site.webmanifest">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+	<!-- Web Icon -->
 	<title>Ezlaundry | Sign In</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="\icon\apple-touch-icon.png">
 	<link rel="stylesheet" type="text/css" href="/css/signin.css">
+	<link rel="shortcut icon" type="image/x-icon" href="\img\favicon.ico" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:500&display=swap" rel="stylesheet">
 </head>
@@ -93,7 +102,7 @@
 						</div>
 						<input type="submit" class="btn" value="Register">
 					</form>
-				<!-- Register -->
+			<!-- Register -->
 			</div>
 		</div>
     </div>
